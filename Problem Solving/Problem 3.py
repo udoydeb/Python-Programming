@@ -5,7 +5,7 @@ import pyttsx3
 engine = pyttsx3.init()
 
 # Set speaking speed
-engine.setProperty('rate', 150)
+engine.setProperty('rate', 150)  # Speed percent (can go over 100)
 
 # Set volume (0.0 to 1.0)
 engine.setProperty('volume', 1.0)
